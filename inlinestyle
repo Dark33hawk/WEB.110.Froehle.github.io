@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+<!-- this is Teachers's intro to HTML and tags -->
+	<style>
+	/*Heading 1 styles*/
+	h1 {color: orange;}
+	/* Paragraph styles */
+	p {
+	color:orange;
+	font-weight: 1000;
+	text-decoration: overline;
+	}
+	/*Anchor Styles*/
+	a {
+	color: red;
+	}
+	</style>
+</head>
+
+
+
+<body>
+<!-- we are going to make a list -->
+<!-- two types of lists -->
+<!-- ordered list -->
+<!-- unordered list -->
+<h1>
+Favorite Fruit
+</h1>
+
+<h2>Intro</h2>
+<p>This is my page on awesome fruit.</p>
+
+<!-- anchor <a> -->
+<!-- hypertext reference href -->
+<h2>My list of fruit</h2>
+<ul>
+<!-- list items -->
+	<li><a href="https://en.wikipedia.org/wiki/List_of_apple_cultivars" ><img src="apple.png" alt="A red apple" width="50px"></a></li>
+	<!--<li><img src="apple.png" alt="A red apple" width="50px"></li>-->
+	<li><img src="images/orange.png" alt="a blood orange" width="50px"></li>
+	<li>Banana</li>
+	<li><img src="https://www.thetreecenter.com/c/uploads/grapes-concord-1.jpg" width="50px"></li>
+</ul>
+
+<h2>Links to other resources</h2>
+<a href="https://en.wikipedia.org/wiki/List_of_apple_cultivars" >Apple, as a link but not in the list.</a>
+
+<p>The end.</p>
+
+</body>
+
+<!-- the end -->
+</html>
