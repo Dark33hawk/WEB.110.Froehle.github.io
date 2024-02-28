@@ -1,0 +1,29 @@
+
+.Title {    
+    color: crimson;
+    font-size: 24px;
+}
+.likes {
+	color: black;
+	margin: 20px;
+	border: 5px;
+	
+	
+}
+.animals {
+	color: rgba(255, 45, 0, 100%);
+	background-color: blue;
+	margin: 10px;
+}
+.games {
+	color: blue;
+	background-color: #00FF00;
+}
+.music {
+	color: #00FF00;
+	background-color: rgba(255, 45, 0, 10%);
+	padding: 10px;
+	float: right;
+}
+.footer {
+}
