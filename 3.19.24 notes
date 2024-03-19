@@ -1,1 +1,11 @@
 border-radius allows for curved borders on outlines. use % to change based on window size
+it only has one color? can you use gradiant or shading, perhaps more tha one color?
+i should honestly just draw it all and write it on paper first
+instead of one color, use linear-gradient to allow color change from top to bottom
+you can add as many colors as you want with , 
+45deg, is used for changing orientation from top to bottom 
+background color: linear-gradient(crimson, orange);
+can change gradient to radial instead of linear to allow for shapes instead.
+background color: radial-gradient(circle, crimson, orange);
+circle or closest side, elipse
+alpha-gradient allows for more color blending? look into it
