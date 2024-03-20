@@ -1,0 +1,83 @@
+
+/*this is css comments. CSS has three components; Selectors like p or h1
+properties like color font-size margin, and Values such as inputs like blue or 40px */
+/*use class to link html to css */
+p {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+li {font-style: italic;}
+h1 {font-size: 200%;}
+.footer {    border: 10px ridge indigo;
+    background-color: #ff0;
+    padding: 0.5rem;
+}
+.articleone {    border: 10px ridge green;
+    background-color: #ff0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content:left;
+    text-align: left;
+}
+.asideone {    border: 10px ridge lightgreen;
+    background-color: #ff0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    float:inline-end;
+    margin: 0.17%;
+}
+.sectionone {    border: 10px ridge darkgreen;
+    background-color: #ff0;
+    padding: 0.5rem;
+    float:left;
+    margin: 0.17%;
+}
+.articletwo {    border: 10px ridge #f00;
+    background-color: #ff0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content:left;
+    text-align: left;
+}
+.sectiontwo {    border: 10px ridge darkred;
+    background-color: #ff0;
+    padding: 0.5rem;
+    float:left;
+    margin: 0.17%;
+}
+.asidetwo {    border: 10px ridge pink;
+    background-color: #ff0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    float:inline-end;
+    margin: 0.17%;
+}
+.articlethree {    border: 10px ridge blue;
+    background-color: #ff0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content:left;
+    text-align: left;
+}
+.asidethree {    border: 10px ridge aqua;
+    background-color: #ff0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    float:inline-end;
+    margin: 0.17%;
+}
+.sectionthree {    border: 10px ridge darkblue;
+    background-color: #ff0;
+    padding: 0.5rem;
+    float:left;
+    margin: 0.17%;
+}
+.header {    border: 10px ridge black;
+    background-color: #ff0;
+    padding: 0.5rem;
+}
+.nav {    border: 10px ridge gray;
+    background-color: #ff0;
+    padding: 0.5rem;
+}
+
