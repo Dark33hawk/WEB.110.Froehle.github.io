@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+bg_div {
+    background-image: url('CATPRIME.jpg');
+    color: white;
+}
+</body>
+</html>
