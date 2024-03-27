@@ -83,7 +83,7 @@ h1 {font-size: 200%;}
     padding: 0.5rem;
 }
 .video {    border: 10px ridge gray;
-  
+    background-color: linear-gradiant (red,blue);
     background-size: 50%;
     color: cyan;
     padding: 0.5rem;
