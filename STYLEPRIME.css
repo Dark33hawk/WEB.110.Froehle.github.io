@@ -84,7 +84,7 @@ h1 {font-size: 200%;}
 .video {    border: 10px ridge gray;
   
     background-size: 50%;
-    color: magenta;
+    color: cyan;
     padding: 0.5rem;
     border-radius: 25px 0px 25px 0px;
 border: 20px linear-gradiant (red, blue, yellow, green, indigo, violet);
