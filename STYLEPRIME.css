@@ -6,7 +6,8 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 li {font-style: italic;}
 h1 {font-size: 200%;}
 .footer {    border: 10px ridge indigo;
-    background-color: #ff0;
+  background-image: url('pokemonpuzzle.webp');
+    background-repeat: no-repeat;
     padding: 0.5rem;
 }
 .articleone {    border: 10px ridge green;
@@ -81,11 +82,10 @@ h1 {font-size: 200%;}
     padding: 0.5rem;
 }
 .video {    border: 10px ridge gray;
-    background-image: url('pokemonpuzzle.webp');
-    background-repeat: no-repeat;
+  
     background-size: 50%;
     color: magenta;
     padding: 0.5rem;
     border-radius: 25px 0px 25px 0px;
-border: 20px linear-gradiant red blue yellow green indigo violet;
+border: 20px linear-gradiant (red, blue, yellow, green, indigo, violet);
 }
