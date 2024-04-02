@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<p>Please enter your name</p>
+<form>
+<label for="F_Name">First Name</label>
+<input type="text" id="F_Name">
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
+in the form <> you can add an action="" which will send the data and input to there. use the database script, .php and so o
