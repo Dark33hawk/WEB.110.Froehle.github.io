@@ -4,6 +4,29 @@ properties like color font-size margin, and Values such as inputs like blue or 4
 /*use class to link html to css */
 p {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 li {font-style: italic;}
+a {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: crimson;
+}
+
+a:active {
+    border: 3px solid crimson;
+}
+
+button:focus {
+    border: 3px solid blue;
+}
+
+input:focus {
+    border: 3px solid blue;
+}
 h1 {font-size: 200%;}
 .footer {    border: 10px ridge indigo;
   background-image: url('pokemonpuzzle.webp');
