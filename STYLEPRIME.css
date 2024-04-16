@@ -120,7 +120,7 @@ border: 20px linear-gradiant (red, blue, yellow, green, indigo, violet);
   border: 5px solid black;
   border-radius: 50%;
   animation: rainbow 5s linear infinite;
-  transition: width 2s, height 2s;
+ /* transition: width 2s, height 2s; */
 }
 @keyframes rainbow {
 0% {
