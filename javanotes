@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<!--	D20 Roller	-->
+	<head>
+		<meta charset="utf-8" />
+   <link rel="stylesheet" href="STYLEPRIME.css">
+    <style>
+        p {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+        li {font-style: italic;}
+        h1 {font-size: 200%;}
+    </style>
+	</head>
+	<body>
+		<p id="d20_result">Do you pass the check? 🐉</p>
+		<button onclick="rolld20()">Roll 1D20!</button>
+		<script>
+			function rolld20() {
+				const result = Math.floor(Math.random() * 20) + 1;
+				document.getElementById('d20_result').innerText = `You rolled a ${result}!`;
+			}
+		</script>
+  <div class="form_bg">
+  <button onclick=alert("Federal Furry Agents Inbound, give me your moneies lmao"> fbi open up </button>
+  <button onclick="alert('alert text text')"> alert </button>
+  </div>
+	</body>
+</html>
