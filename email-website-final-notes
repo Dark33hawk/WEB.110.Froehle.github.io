@@ -1,0 +1,29 @@
+<!-- promotional emails, with a new product lauch of weapons against zombies.
+header, featured articles (probably about different weapons or magazine stuff)
+header,
+product description
+special offer
+internal stylesheet,three different sections
+no pngs, all visual elements to me made with cssemail template file .html 
+-->
+<!--
+techgear website!
+three pages at least; shop, geeksquad, warrenty plans/insurance
+responsive!!
+pages connected by menuexternal css style pages
+Include at least six unique items from the following:
+Element with a background color
+Element with a background image
+Element with a background video
+Consistent branding/theming related to the chosen scenario@
+CSS shape (menu, button, div, etc.)@
+Element that uses a gradient
+Embedded video@
+Embedded audio
+Colors (Named, Hex, RGBA, and/or HSLA)
+Table (must include header rows and/or columns)@
+Form (must include a submit button)
+Pseudo-classes (Active, Visited, Hover, and Focus)
+Unique transition(s) applied to element(s)
+Animation
+-->
