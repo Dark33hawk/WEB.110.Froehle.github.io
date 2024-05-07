@@ -1,0 +1,101 @@
+/*
+0066ff blue main
+00ff99 light green accent
+ff0066 bright red pink
+ff9900 orange
+4d94ff lighter blue
+*/
+body {
+    background-color: #0066ff; 
+}
+.title{
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    font-size: 200%;
+}
+.menu{
+    background-color: grey;
+    color: white;
+    padding: 0.5rem;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    font-size: 175%;
+    margin-top: 1%;
+}
+.row {    border: 1px ridge green;
+    background-color: #00ff99;
+    padding: 0.5rem;
+    display: flex;
+    justify-content:center;
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px;
+    background-color: #4d94ff;
+    text-align: center;
+  }
+  
+  .styled-table th, .styled-table td {
+    border: 1px solid #00ff99; /* Borders for table cells */
+    padding: 8px;
+  }
+  
+  .styled-table th {
+    background-color: grey; /* Background color for table header cells */
+  }
+  
+  .styled-table tbody tr:nth-child(even) {
+    background-color: #ff0066; /* Alternate row background color */
+  }
+  
+  .styled-table tbody tr:hover {
+    background-color: #ff9900; /* Hover effect for rows */
+  }
+.images {
+    margin: auto;
+}
+.one-third {
+    width: calc(33%-10px);
+    text-align: left;
+}
+.two-third{
+    width: calc(33%-10px);
+    text-align: center;
+}
+.three-third{
+    width: calc(33%-10px);
+    text-align: right;
+}
+.green {    border: 10px ridge green;
+    background-color: #4d94ff;
+    padding: 0.5rem;
+    display: flex;
+    justify-content:space-between;
+    text-align: left;
+}
+.lightgreen {    border: 10px ridge lightgreen;
+    background-color: #4d94ff;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    float:inline-end;
+    margin: 0.17%;
+    width: calc(33.33%);
+}
+.darkgreen {    border: 10px ridge darkgreen;
+    background-color: #4d94ff;
+    padding: 0.5rem;
+    float:left;
+    margin: 0.17%;
+    width: calc(33.33%);
+    justify-content:space-between;
+}
