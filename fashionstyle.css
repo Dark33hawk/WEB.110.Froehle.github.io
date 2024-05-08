@@ -76,7 +76,8 @@ body {
     text-align: right;
 }
 .green {    border: 10px ridge green;
-    background-color: #4d94ff;
+     background-image: url('ocean.jpg');
+    color: white; 
     padding: 0.5rem;
     display: flex;
     justify-content:space-between;
@@ -98,4 +99,27 @@ body {
     margin: 0.17%;
     width: calc(33.33%);
     justify-content:space-between;
+}
+.box {    border: 10px ridge lightgreen;
+    border-radius: 10px;
+    background-color: #4d94ff;
+    background-repeat: repeat;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    float:inline-end;
+    margin: 0.17%;
+}
+.leftbox {    border: 10px ridge #ff9900;
+    background-color: #4d94ff;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    float:left;
+    margin: 0.17%;
+}
+.textwrap{
+    width: 100%;
+    word-wrap: break-word;
+    text-align: center;
 }
